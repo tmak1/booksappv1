@@ -1,20 +1,18 @@
-import React, { useContext, useState } from 'react';
+import React, { useState } from 'react';
 import { useMutation, makeReference } from '@apollo/client';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
 import { GET_BOOK_DETAILS, CREATE_BOOK } from '../../../gqlQueries/bookQueries';
-import { GET_ALL_AUTHORS } from '../../../gqlQueries/authorQueries';
+
 import ErrorModal from '../../shared/ui/ErrorModal';
 import LoadingSpinner from '../../shared/ui/LoadingSpinner';
 import TextError from '../../shared/form/TextError';
-import { AuthContext } from '../../shared/context/AuthContext';
 
 import './NewBookForm.css';
 import AuthorSelectInput from '../components/AuthorSelectInput';
 
 export default function NewBookForm({ showDetailsHandler, toggleForm }) {
-  const auth = useContext(AuthContext);
   const [err, setErr] = useState();
   const initialValues = {
     title: '',

@@ -139,7 +139,7 @@ export default function BookDetailsContainer({ book, showDetailsHandler }) {
         setShowEditBookForm(null);
       }
     };
-  }, []);
+  }, [showEditBookForm, setShowEditBookForm]);
 
   if (err) {
     return (

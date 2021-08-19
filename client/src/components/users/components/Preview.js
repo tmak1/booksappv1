@@ -23,7 +23,7 @@ export default function Preview({ file }) {
       {!loading && thumb && (
         <img
           src={thumb}
-          alt="user image"
+          alt=""
           height={200}
           width={200}
           style={{ margin: '10px auto', display: 'block' }}

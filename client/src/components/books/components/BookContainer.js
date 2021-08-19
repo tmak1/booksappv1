@@ -32,7 +32,7 @@ export default function BookContainer({ books }) {
     if (!currentBook && books.length > 0) {
       setCurrentBook(books[0]);
     }
-  }, [books]);
+  }, [books, currentBook, setCurrentBook]);
 
   // console.log('rendering container..');
   return (

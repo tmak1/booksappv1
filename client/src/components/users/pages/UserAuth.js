@@ -10,7 +10,7 @@ export default function UserAuth() {
 
   const clickOnLoad = useCallback(() => {
     ref.current.focus();
-  }, []);
+  }, [ref]);
 
   useEffect(() => {
     clickOnLoad();

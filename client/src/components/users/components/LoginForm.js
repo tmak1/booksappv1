@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 
@@ -100,7 +100,7 @@ export default function LoginForm() {
               type="submit"
               disabled={!formik.isValid && formik.isSubmitting}
             >
-              LOGINS
+              LOGIN
             </button>
           </Form>
         );
