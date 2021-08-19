@@ -1,0 +1,10 @@
+.App {
+  margin: 0 auto;
+  border: 5px solid whitesmoke;
+}
+
+@media screen and (max-width: 1100) {
+  .App {
+    width: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.card {
+  margin: 15px;
+  padding: 7px 15px;
+  display: inline-block;
+  color: #ad1457;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #ad1457;
+  border-radius: 4px;
+  box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.3);
+  transition: transform 0.2s ease-in-out;
+}
+
+.card:hover,
+.active {
+  cursor: pointer;
+  background-color: #ad1457;
+  color: white;
+  font-weight: bolder;
+  transform: translate(3px, -3px);
+}

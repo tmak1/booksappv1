@@ -1,0 +1,63 @@
+.user-form {
+  padding: 20px;
+  width: 100%;
+  margin: 0 auto;
+  background: #fff;
+  box-sizing: border-box;
+  overflow-y: scroll;
+}
+
+.user-form-container .form-control {
+  margin: 20px auto;
+}
+
+.user-form-container .form-control label {
+  display: block;
+  padding: 6px;
+  margin: 10px;
+  font-weight: bold;
+}
+.user-form-container input[type='text'],
+.user-form-container input[type='email'],
+.user-form-container input[type='number'],
+.user-form-container input[type='password'],
+.user-form-container textarea {
+  margin: 5px auto;
+  padding: 6px 12px;
+  font-size: 14px;
+  width: 90%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  /* margin-bottom: 20px; */
+}
+
+.user-form-container .form-control .error {
+  color: red;
+}
+
+.user-form button[type='submit'],
+.image-picker__btn {
+  margin-top: 20;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bolder;
+  color: whitesmoke;
+  cursor: pointer;
+  background-color: #ad1457;
+  border: 2px solid #ad1457;
+  border-radius: 5px;
+}
+
+.image-picker__btn {
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 1250px) {
+  .user-form-container {
+    text-align: center;
+  }
+  .user-form-container .form-control label {
+    text-align: center;
+  }
+}

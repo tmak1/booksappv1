@@ -1,0 +1,24 @@
+.search-form-container input {
+  width: 70%;
+  margin: 0 auto;
+  padding: 5px 15px;
+  font-weight: bold;
+  font-size: 16px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #f1e9ed;
+  border: 2px solid #ad1457;
+}
+
+.search-form-container button {
+  margin: 0;
+  margin-left: 20px;
+  padding: 10px;
+  font-weight: bolder;
+  color: whitesmoke;
+  cursor: pointer;
+  line-height: 0.8rem;
+  background-color: #ad1457;
+  border: 2px solid #ad1457;
+  border-radius: 5px;
+}
