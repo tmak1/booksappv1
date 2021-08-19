@@ -4,7 +4,6 @@
   "description": "",
   "main": "app.js",
   "type": "module",
-
   "scripts": {
     "start": "NODE_ENV=production node app.js",
     "dev": "concurrently --kill-others-on-fail \"NODE_ENV=development nodemon -r dotenv/config app.js\" \"npm run start --prefix ./client\"",
@@ -35,5 +34,3 @@
     "uuid": "^8.3.2"
   }
 }
-
-

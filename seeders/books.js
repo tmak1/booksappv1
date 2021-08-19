@@ -15,7 +15,7 @@ const books = [
     title: '1984',
     genre: 'Science Fiction',
     summary:
-      "A man loses his identity while living under a repressive regime. In a story based on George Orwell's classic novel, Winston Smith (John Hurt) is a government employee whose job involves the rewriting of history in a manner that casts his fictional country's leaders in a charitable light. His trysts with Julia (Suzanna Hamilton) provide his only measure of enjoyment, but lawmakers frown on the relationship -- and in this closely monitored society, there is no escape from Big Brother.",
+      "A man loses his identity while living under a repressive regime. In a story based on George Orwell's classic novel, Winston Smith is a government employee whose job involves the rewriting of history in a manner that casts his fictional country's leaders in a charitable light. His trysts with Julia provide his only measure of enjoyment, but lawmakers frown on the relationship and in this closely monitored society, there is no escape from Big Brother.",
   },
 ];
 

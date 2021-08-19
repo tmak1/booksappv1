@@ -7,6 +7,7 @@
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.3",
+    "env-cmd": "^10.1.0",
     "formik": "^2.2.6",
     "graphql": "^15.5.0",
     "react": "^17.0.1",
@@ -22,8 +23,8 @@
     "http-proxy-middleware": "^0.19.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "env-cmd -f ./dev.env react-scripts start",
+    "build": "env-cmd -f ./prod.env react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
